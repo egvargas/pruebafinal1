@@ -1,4 +1,5 @@
 resource "aws_instance" "webserver" {
+  #### Cambiar Ami por la instancia ####
   ami                         = "ami-05fb0b8c1424f266b"
   instance_type               = "t2.small"
   key_name                    = "mykey" 
